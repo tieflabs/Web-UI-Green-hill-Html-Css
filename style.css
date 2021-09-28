@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&900display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@800&display=swap');
+
+
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	height: 100vh;
+	background: #0b0e1f;
+	background: url(BackgroundLeaf.jpg); 
+	background-size: cover;
+}
+section{ 
+	position: absolute;	
+	height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+nav{
+	position: absolute;
+	height: 70px;
+	width: 89.8%;
+	backdrop-filter: blur(30px);
+	right: 0;
+}
+nav ul{
+	display: flex;
+	float: right;
+	margin-right: 100px;
+}
+nav ul li{
+	display: flex;
+	margin-right: 18px;
+}
+nav ul li a{
+	font-size: 20px;
+	text-decoration: none;
+	color: lavender;
+	margin-top: 12px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600;
+	padding: 10px;
+}
+.active, a:hover{
+	font-size: 20px;
+	text-decoration: none;
+	color: green;
+	background: lavender;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600;
+}
+.fa-search{
+	color: honeydew;
+	margin-top: 6%;
+	margin-left: 50px;
+	font-weight: 600;
+	font-size: 20px;
+	font-family: sans-serif;
+	transform: translateX(50px);
+}
+.horz{
+	position: absolute;
+	height: 35%;
+	width: 2px;
+	background: #fff;
+	margin-left: 140px;
+}
+.horzTow{
+	position: absolute;
+	height: 35%;
+	width: 2px;
+	bottom: 0;
+	background: #fff;
+	margin-left: 140px;
+}
+.social{
+	position: absolute;
+	content:'';
+	height: 180px;
+	width: 100px;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: center;
+	display: flex;
+	margin-left: 95px;
+	margin-top: 255px;
+}
+.fab.fa-linkedin, .fab.fa-facebook, .fab.fa-youtube{
+	font-size: 30px;
+	margin: 10px;
+	cursor: pointer;
+	color: honeydew;
+}
+.fab.fa-envira{
+	position: absolute;
+	font-size: 100px;
+	color: honeydew;
+	margin: 20px;
+}
+.fa-envira:hover{
+	color: greenyellow;
+}
+.fab.fa-linkedin:hover, .fab.fa-facebook:hover, .fab.fa-youtube:hover{
+	color: greenyellow;
+}
+.scl{
+	position: absolute;
+	height: 150%;
+	width: 600px;
+	top: -5%;
+	left: -20%;
+	border-radius: 100%;
+	background: #39ba17;
+	transform: translateY(-100px);
+}
+#up{
+   	font-size: 35px;
+    transform: translateY(-25px);	
+    color: lawngreen;
+	text-shadow: 5px 6px 11px #1fff24;
+} 
+#down{
+	position: absolute;
+	transform: translateY(200px);
+	font-size: 35px;
+	right: 0;
+	color: lawngreen;
+	text-shadow: 5px 6px 11px #1fff24;
+}
+.Green{
+	font-size: 150px;
+	letter-spacing: 10px;
+	color: #fff;
+	font-weight: 900;
+	text-shadow: -6px 6px 0px #00ff06;
+	transform: translate(400px, 150px);
+	font-family: 'Gemunu Libre', sans-serif;
+	backdrop-filter: blur(4px);
+
+}
+.box{
+	content: '';
+	position: absolute;
+	height: 300px;
+	width: 50%;
+	border-bottom-left-radius: 60px;
+	border-top-right-radius: 60px;
+	background: linear-gradient(#1fff24, #0800);
+	border: 1x solid #fff;
+	transform: translate(400px, 200px);
+}
+.title{
+	font-size: 30px;
+	color: #000;
+	font-family: 'Gemunu Libre',sans-serif;
+	margin-left: 40px;
+}
+.dogs{
+    position: absolute;
+    transform: translate(299px, 30px);
+}
+.far.fa-play-circle{
+	position: absolute;
+	font-size: 70px;
+	cursor: pointer;
+	color: greenyellow;
+	transform: translate(400px, 90px);
+}
+.boxText{
+	position: absolute;
+	height: 170px;
+	width: 250px;
+	margin-top: 29px;
+	margin-left: 40px;
+	backdrop-filter: blur(10px);
+	/*background: #fff;*/
+}
+.text{
+	font-size: 17px;
+	color: white;
+	font-family: sans-serif;
+}
+button{
+	position: absolute;
+	height: 40px;
+	width: 150px;
+	font-family: 'Poppins',sans-serif;
+	font-size: 20px;
+	transform: translate(40px, 185px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
